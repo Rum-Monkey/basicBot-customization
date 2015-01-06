@@ -2836,16 +2836,6 @@
                             API.sendChat(subChat(basicBot.chat.youtube, {name: chat.un, link: basicBot.settings.youtubeLink}));
                     }
                 }
-            },
-
-            RulesCommand: {
-                command: 'Rules',
-                rank: 'user',
-                type: 'startsWith',
-                cookies: ['Here is a Link to the Rules https://gist.github.com/13370cbcaf43e3df2848.git'
-                ],
-                    }
-                }
             }
         }
     };
