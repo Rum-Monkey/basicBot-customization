@@ -174,7 +174,7 @@
         return m;
     };
 
-    var botCreator = "Matthew aka. Yemasthui";
+    var botCreator = "Matthew aka. Yemasthui, co-author Rum Monkey";
     var botCreatorIDs = [];
 
     var basicBot = {
@@ -193,7 +193,7 @@
             botName: "RaveBot",
             language: "english",
             chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
-            maximumAfk: 120,
+            maximumAfk: 120000000000,
             afkRemoval: true,
             maximumDc: 60,
             bouncerPlus: true,
@@ -487,7 +487,7 @@
                         rankInt = 7;
                         break;
                     case "host":
-                        rankInt = 5;
+                        rankInt = 10;
                         break;
                     case "cohost":
                         rankInt = 4;
