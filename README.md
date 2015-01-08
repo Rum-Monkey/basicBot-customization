@@ -4,7 +4,7 @@ Click [here](https://github.com/Yemasthui/basicBot) for basicBot's main reposito
 
 Using custom room settings or adding functionality is done by loading your own script loading and modifying the bot.
 This repository's purpose is to facilitate this. You can fork the repository and customise [the example script](https://github.com/Rum-monkey/basicBot-customization/blob/master/extension.js). 
-When you have forked the repo, bookmark the following script, __but change _Yemasthui_ to your own github handle__. 
+When you have forked the repo, bookmark the following script
 
 `javascript:(function(){$.getScript('https://rawgit.com/Rum-Monkey/basicBot-customization/master/extension.js');})();`
 
